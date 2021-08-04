@@ -1,0 +1,46 @@
+h1 {
+    font-size: 3rem;
+    border: 1px solid #000;
+    color: #DD501D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.back-drop {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(63, 61, 61, 0.692);
+    transition: all 1.3s;
+}
+
+.btn-openModal {
+    color: #eee;
+    font-size: 1rem;
+    margin: 2rem;
+    padding: .5rem 1.8rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    /* background-color: rgb(29, 165, 255); */
+    background-color: #6699CC;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.addBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
